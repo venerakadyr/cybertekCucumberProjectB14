@@ -1,81 +1,45 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/vytrack_features/createCalendarEvent.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/google.feature");
 formatter.feature({
-  "name": "Activities Module: Create Calendar Events Page",
-  "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@CCEP"
-    }
-  ]
+  "name": "Google related verifications",
+  "description": "  Agile story: User stories, acceptance criteria\n  Basically we can pass here any additional information related to this features file",
+  "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Verify Default Fields for Create Calendar Events Page",
+  "name": "Google verification",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@CCEP"
-    },
-    {
-      "name": "@defaultFieldsCCEP"
+      "name": "@smokeTest"
     }
   ]
 });
-formatter.step({
-  "name": "the user is signed in as a sale manager",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
-  "name": "the user is on the All Calendar Events page under the Activities tab",
+  "name": "User is on google homepage",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "Google_StepDefs.user_is_on_google_homepage()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "the user is taken to the Create Calendar Events page after clicking the Create Calendar Event button",
-  "keyword": "And "
+  "name": "User should see title contains Google",
+  "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "Google_StepDefs.user_should_see_title_contains_Google()"
+});
 formatter.result({
-  "status": "undefined"
+  "error_message": "java.lang.AssertionError: Title verification is PASSED\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat steps_definitions.google_stepDefs.Google_StepDefs.user_should_see_title_contains_Google(Google_StepDefs.java:27)\n\tat ✽.User should see title contains Google(src/test/resources/features/google.feature:11)\n",
+  "status": "failed"
 });
-formatter.step({
-  "name": "the user should see their name as the default value of of the owner field",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "the user should see the title field to be empty by default",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "the user should see the start date field with the default value of the current date",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "the user should see the start time field with the default value of the current time",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.embedding("image/png", "embedded0.png");
+formatter.after({
+  "status": "passed"
 });
 });

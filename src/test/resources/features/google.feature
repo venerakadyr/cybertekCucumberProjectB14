@@ -5,7 +5,7 @@ Feature: Google related verifications
   Basically we can pass here any additional information related to this features file
   #comment are done using hashtag
 
-
+@smokeTest
   Scenario: Google verification
     When User is on google homepage
     Then User should see title contains Google

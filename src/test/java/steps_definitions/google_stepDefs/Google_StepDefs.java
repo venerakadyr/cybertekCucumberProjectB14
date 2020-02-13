@@ -22,7 +22,7 @@ public class Google_StepDefs {
         //2-compare the actual title vs expected title
 
         String actualTitle=Driver.getDriver().getTitle();
-        String expectedTitle="Google";
+        String expectedTitle="adadadad";
 
         Assert.assertTrue("Title verification is PASSED",actualTitle.contains(expectedTitle));
 
