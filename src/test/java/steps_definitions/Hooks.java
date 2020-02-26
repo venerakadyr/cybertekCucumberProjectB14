@@ -10,7 +10,7 @@ import utilities.Driver;
 public class Hooks {
     @Before
     public  void setup(){
-        //Anything that you want to run before each Scenario
+       Driver.getDriver().get("https://www.google.com");
     }
 
 

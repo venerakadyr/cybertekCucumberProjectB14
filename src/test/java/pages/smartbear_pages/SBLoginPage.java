@@ -5,10 +5,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class SmartBearLoginPage {
+public class SBLoginPage {
     //When we are creating POM page
     //1-Create a constructor and call PageFactory method
-    public SmartBearLoginPage(){
+    public SBLoginPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
     //2-@Finby annotation  to locate webElement
