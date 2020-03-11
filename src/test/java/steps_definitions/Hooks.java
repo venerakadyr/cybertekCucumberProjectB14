@@ -6,12 +6,20 @@ import cucumber.api.java.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
+import utilities.ExtentReport;
+import utilities.Log;
+import utilities.TempStorage;
 
 public class Hooks {
     @Before
-    public  void setup(){
-       Driver.getDriver().get("https://www.google.com");
+    public  void setup(Scenario scenario){
+        //Anything before each scena rio
+//       Driver.getDriver().get("https://www.google.com");
+        TempStorage.clear();
+        Log.start(scenario.getName());
+        ExtentReport.startTest(scenario.getName());
     }
+
 
 
 
@@ -21,10 +29,14 @@ public class Hooks {
       if(scenario.isFailed()){
           byte [] screenshot=((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
           scenario.embed(screenshot,"image/png");
+          ExtentReport.fail();
+
+      }else {
+          ExtentReport.pass();
 
       }
 
-
+ Driver.closeDriver();
 
     }
 }

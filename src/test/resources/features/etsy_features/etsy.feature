@@ -1,8 +1,8 @@
 Feature: Etsy search functionality
   CBT-25 Agile Story; can be placed here
 
-   Background: User is already on Etsy home page
-   Given User is on Etsy home page
+    Background: User is already on Etsy home page
+      Given User is on Etsy home page
     Scenario: Etsy search title verification
     When user search for wooden spoon
     Then User should see wooden spoon in Etsy title

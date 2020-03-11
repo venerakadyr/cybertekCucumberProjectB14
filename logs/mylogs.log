@@ -1,0 +1,30 @@
+[INFO ] 2020-03-07 18:21:14.452 [main] TestLogs - on dzon.com
+[WARN ] 2020-03-07 18:21:14.455 [main] TestLogs - Login in to application
+[INFO ] 2020-03-07 18:22:02.767 [main] TestLogs - on dzone.com
+[WARN ] 2020-03-07 18:22:02.770 [main] TestLogs - Login in to application
+[INFO ] 2020-03-07 18:43:00.705 [main] TestLogs - Scenario start point: Etsy search title verification
+[INFO ] 2020-03-07 18:56:37.627 [main] TestLogs - Scenario start point: Header comparison
+[INFO ] 2020-03-07 18:56:39.636 [main] TestLogs - User is on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-07 18:56:39.672 [main] TestLogs - Header 1 is taken: Gradle vs. Maven
+[INFO ] 2020-03-07 18:56:40.281 [main] TestLogs - User is on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-07 18:56:40.298 [main] TestLogs - Header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-03-07 18:56:40.298 [main] TestLogs - Comparing two data.
+[INFO ] 2020-03-07 19:52:29.952 [main] TestLogs - Scenario start point: Header comparison
+[INFO ] 2020-03-07 19:52:34.950 [main] TestLogs - User is on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-07 19:52:34.987 [main] TestLogs - Header 1 is taken: Gradle vs. Maven
+[INFO ] 2020-03-07 19:52:35.992 [main] TestLogs - User is on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-07 19:52:36.015 [main] TestLogs - Header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-03-07 19:52:36.016 [main] TestLogs - Comparing two data.
+[INFO ] 2020-03-07 19:54:56.875 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 19:55:02.593 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 19:55:03.548 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 19:55:04.679 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 20:00:10.727 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 20:00:18.463 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 20:00:20.215 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 20:00:22.015 [main] TestLogs - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-07 20:01:32.027 [main] TestLogs - Scenario start point: Verify Default Fields for Create Calendar Events Page
+[INFO ] 2020-03-07 20:03:22.025 [main] TestLogs - Scenario start point: As a user I should be able to login using authenticated test data
+[INFO ] 2020-03-07 20:06:47.688 [main] TestLogs - Scenario start point: As a user I should be able to login using authenticated test data
+[INFO ] 2020-03-08 10:35:20.844 [main] TestLogs - Scenario start point: As a user I should be able to login using authenticated test data
+[INFO ] 2020-03-08 10:38:40.554 [main] TestLogs - Scenario start point: As a user I should be able to login using authenticated test data
