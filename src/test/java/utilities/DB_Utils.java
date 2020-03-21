@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DBUtility {
+public class DB_Utils {
 
     private static Connection connection;
     private static Statement statement;
@@ -14,12 +14,12 @@ public class DBUtility {
 
 // create the connection with Oracle SQL
     public static void createConnection() throws SQLException {
-        switch (Config.getProperty("dbType")) {
+        switch (Config_Utils.getProperty("dbType")) {
             case "oracle":
 
-                connection = DriverManager.getConnection(Config.getProperty("oracleURL"),
-                        Config.getProperty("oracleUserName"),
-                        Config.getProperty("oraclePassword"));
+                connection = DriverManager.getConnection(Config_Utils.getProperty("oracleURL"),
+                        Config_Utils.getProperty("oracleUserName"),
+                        Config_Utils.getProperty("oraclePassword"));
 
             case "mysql":
                 //create connection with mysql

@@ -6,13 +6,12 @@ import org.junit.Assert;
 import pages.vytrack_pages.CreateCalendarEventPage;
 import pages.vytrack_pages.DashBoard_Page;
 import pages.vytrack_pages.LoginPage;
-import utilities.Config;
-import utilities.Driver;
+import utilities.Config_Utils;
+import utilities.Driver_Utils;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 
 public class CreateCalendarEventPageSteps {
 
@@ -23,9 +22,9 @@ public class CreateCalendarEventPageSteps {
 
     @Given("the user is signed in as a sale manager")
     public void the_user_is_signed_in_as_a_sale_manager() {
-        Driver.getDriver().get(Config.getProperty("vytrackUrl"));
-        lp.usernameInput.sendKeys(Config.getProperty("vytrackUsername"));
-        lp.passwordInput.sendKeys(Config.getProperty("vytrackPassword"));
+        Driver_Utils.getDriver().get(Config_Utils.getProperty("vytrackUrl"));
+        lp.usernameInput.sendKeys(Config_Utils.getProperty("vytrackUsername"));
+        lp.passwordInput.sendKeys(Config_Utils.getProperty("vytrackPassword"));
         lp.loginButton.click();
     }
 

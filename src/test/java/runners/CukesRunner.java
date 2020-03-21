@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
-import utilities.ExtentReport;
+import utilities.ExtentReport_Utils;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -12,14 +12,14 @@ import utilities.ExtentReport;
         features = "src/test/resources/features",
         glue= "steps_definitions",
         dryRun =false,
-        tags="@etsy"
+        tags="@smartOrder"
 
 )
 
 public class CukesRunner {
     @AfterClass
     public static void tearDown(){
-        ExtentReport.endReport();
+        ExtentReport_Utils.endReport();
     }
 
 

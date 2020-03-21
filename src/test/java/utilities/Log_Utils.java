@@ -3,7 +3,7 @@ package utilities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
-public class Log {
+public class Log_Utils {
     private static Logger logger= (Logger) LogManager.getLogger(TestLogs.class);
 
     public static void start(String testName){

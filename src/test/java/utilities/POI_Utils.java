@@ -10,14 +10,14 @@ import java.io.FileOutputStream;
 import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 
-public class POIUtility {
+public class POI_Utils {
     XSSFWorkbook workbook;
     XSSFSheet sheet;
     FileInputStream fileInputStream;
     FileOutputStream fileOutputStream;
     Mileage_Page mileage_page = new Mileage_Page();
     public void gasMileageCalculatorTest() throws Exception {
-        Driver.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
+        Driver_Utils.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
         String path = "./src/test/resources/mileage_test_data/Book 1.xlsx";
 
         fileInputStream = new FileInputStream(path);
@@ -115,7 +115,7 @@ public class POIUtility {
         fileInputStream.close();
         fileOutputStream.close();
         workbook.close();
-        Driver.getDriver().quit();
+        Driver_Utils.getDriver().quit();
 
 
     }

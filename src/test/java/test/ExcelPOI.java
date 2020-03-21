@@ -5,12 +5,11 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Test;
 import pages.Mileage_Page;
-import utilities.Driver;
+import utilities.Driver_Utils;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.text.DecimalFormat;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class ExcelPOI {
@@ -23,7 +22,7 @@ public class ExcelPOI {
 
     @Test
     public void gasMileageCalculatorTest() throws Exception {
-        Driver.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
+        Driver_Utils.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
         String path = "./src/test/resources/mileage_test_data/Book 1.xlsx";
 
         fileInputStream = new FileInputStream(path);
@@ -121,7 +120,7 @@ public class ExcelPOI {
         fileInputStream.close();
         fileOutputStream.close();
         workbook.close();
-        Driver.getDriver().quit();
+        Driver_Utils.getDriver().quit();
 
 
     }

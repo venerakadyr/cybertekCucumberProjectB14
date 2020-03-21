@@ -1,11 +1,11 @@
-package test;
+package jdbc;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MappingData {
+public class DataTable {
     /**
      * | First_Name | Last_Name | Job_id |
      * | John       | Wick      | Fighter|

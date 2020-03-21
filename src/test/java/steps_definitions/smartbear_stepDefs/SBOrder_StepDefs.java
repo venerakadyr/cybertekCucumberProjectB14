@@ -9,7 +9,7 @@ import pages.smartbear_pages.SBLandingPage;
 import pages.smartbear_pages.SBLoginPage;
 import pages.smartbear_pages.SBOrderPage;
 import pages.smartbear_pages.SBViewAllOrdersPage;
-import utilities.Driver;
+import utilities.Driver_Utils;
 
 public class SBOrder_StepDefs {
     //new class under smartbear_stepdefs package
@@ -20,7 +20,7 @@ public class SBOrder_StepDefs {
     @Given("User is logged into SmartBear Tester account and on Order page")
     public void user_is_logged_into_SmartBear_Tester_account_and_on_Order_page() {
 
-        Driver.getDriver().get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
+        Driver_Utils.getDriver().get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
         sbLoginPage.usernameInput.sendKeys("Tester");
         sbLoginPage.passwordInput.sendKeys("test");
         sbLoginPage.loginButton.click();
