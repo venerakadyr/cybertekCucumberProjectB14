@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class Config {
     private static Properties properties;
-// ypu have to instantiate your instance object
+// ypu have to instantiate your instance object using class Properties
     static{
         properties=new Properties();
         String path="configuration.properties";

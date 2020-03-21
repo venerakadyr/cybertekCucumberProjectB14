@@ -1,27 +1,21 @@
-package test;
+package utilities;
 
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.junit.Test;
 import pages.Mileage_Page;
-import utilities.Driver;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.text.DecimalFormat;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class ExcelPOI {
+public class POIUtility {
     XSSFWorkbook workbook;
     XSSFSheet sheet;
     FileInputStream fileInputStream;
-    
     FileOutputStream fileOutputStream;
     Mileage_Page mileage_page = new Mileage_Page();
-
-    @Test
     public void gasMileageCalculatorTest() throws Exception {
         Driver.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
         String path = "./src/test/resources/mileage_test_data/Book 1.xlsx";

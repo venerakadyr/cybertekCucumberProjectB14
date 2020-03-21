@@ -1,72 +1,59 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/smartbear_features/smartBearLogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/etsy_features/etsy.feature");
 formatter.feature({
-  "name": "Smartbear login feature verifications",
-  "description": "  Agile Story: When user is on the login page of SmartBear app user should\n  be able to login using correct test data\n  A/C:\n\n  1- Only authenticated user should be able to login\n  Link: http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\n  Authenticated test data:\n  Username: Test\n  Password: tester\n  2- User should see \"Welcome, Tester!\" displayed when logged in.",
+  "name": "Etsy search functionality",
+  "description": "  CBT-25 Agile Story; can be placed here",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "As a user I should be able to login using authenticated test data",
+formatter.background({
+  "name": "User is already on Etsy home page",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@positiveLogin"
-    }
-  ]
+  "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is on SmartBear login page",
+  "name": "User is on Etsy home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Etsy_StepDefs.user_is_on_Etsy_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Etsy search title verification",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@etsy2"
+    }
+  ]
+});
+formatter.step({
+  "name": "user search for \"balloon\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "SB_StepDefs.user_is_on_SmartBear_login_page()"
+  "location": "Etsy_StepDefs.user_search_for(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters correct username",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "SB_StepDefs.user_enters_correct_username()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters correct password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "SB_StepDefs.user_enters_correct_password()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User clicks to login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "SB_StepDefs.user_clicks_to_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should be logged in and be able to verify Welcome text is displayed",
+  "name": "User should see \"Balloon\" in Etsy title",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SB_StepDefs.user_should_be_logged_in_and_be_able_to_verify_Welcome_text_is_displayed()"
+  "location": "Etsy_StepDefs.user_should_see_in_Etsy_title(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat steps_definitions.etsy_stepDefs.Etsy_StepDefs.user_should_see_in_Etsy_title(Etsy_StepDefs.java:49)\n\tat ✽.User should see \"Balloon\" in Etsy title(src/test/resources/features/etsy_features/etsy.feature:28)\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });

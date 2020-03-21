@@ -2,20 +2,28 @@ package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
+    public static final String USERNAME = "venerakadyr";
+    public static final String ACCESS_KEY = "076ea0c2-673e-4333-9941-edbbb1ff8aa1";
+    public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
     private  static WebDriver driver;
 
     private Driver(){
-
     }
 //
 //   public static WebDriver getDriver() {
@@ -57,12 +65,29 @@ public class Driver {
                    driver = new OperaDriver();
                    break;
 
+               case"sauceLab":
+                   DesiredCapabilities caps = DesiredCapabilities.chrome();
+
+                   MutableCapabilities sauceOptions = new MutableCapabilities();
+
+                   ChromeOptions browserOptions = new ChromeOptions();
+                   browserOptions.setExperimentalOption("w3c", true);
+                   browserOptions.setCapability("platformName", "macOS 10.15");
+                   browserOptions.setCapability("browserVersion", "latest");
+                   browserOptions.setCapability("sauce:options", sauceOptions);
+                   try {
+                       driver = new RemoteWebDriver(new URL(URL), caps);
+                   } catch (MalformedURLException e) {
+                       e.printStackTrace();
+                   }
+                    break;
+
 
            }
-           WebDriverManager.chromedriver().setup();
-           driver = new ChromeDriver();
-           driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-           driver.manage().window().maximize();
+//           WebDriverManager.chromedriver().setup();
+//           driver = new ChromeDriver();
+//           driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//           driver.manage().window().maximize();
 
 
        }
