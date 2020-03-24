@@ -1,7 +1,7 @@
 package utilities;
 
-import ApiModels.API_RequestBody;
-import ApiModels.API_ResponseBody;
+import apiModels.API_RequestBody;
+import apiModels.API_ResponseBody;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
@@ -14,7 +14,6 @@ public class API_Utils {
     //One method should handle any API we are hitting
     private static API_ResponseBody responseLISTBody;
 
-//    public static API_ResponseBody[] responseBodies;
 
 
     public static API_ResponseBody getResponseLISTBody() {
@@ -22,7 +21,7 @@ public class API_Utils {
     }
 
 
-    //
+    /** READING*/
     public static void hitGET(String resource) {
         //requesting get dome kind of data reading and validating data
         String url = Config.getProperty("apiBaseURL") + resource;
@@ -31,7 +30,8 @@ public class API_Utils {
 
         System.out.println(response.asString());
 //        response.prettyPrint();
-        Assert.assertEquals("Get API hit failed", 200, response.statusCode());
+//        Assert.assertEquals("Get API hit failed", 200, response.statusCode());
+        System.out.println("Status code: " + response.statusCode());
 
         ObjectMapper mapper = new ObjectMapper();
 
@@ -45,7 +45,21 @@ public class API_Utils {
     }
 
 
-    public static void hitPost(String resource, API_RequestBody body) {
+//     public static void hitGET(String resource) {
+//        String uri = Config.getProperty("baseURL") + resource;
+//        Response response = RestAssured.get(uri);
+////        Response response = RestAssured.given().header("authenticationKey","secretPassword").get(uri);      this is how you would pass with authentication key
+//        System.out.println(response.asString());
+//        System.out.println("Status code: " + response.statusCode());
+//        ObjectMapper objectMapper = new ObjectMapper();
+//        try {
+//            responseBody = objectMapper.readValue(response.asString(), ResponseBody.class);
+//        } catch (Exception j) {
+//            j.printStackTrace();
+//        }
+
+    /** CREATING*/
+    public static void hitPOST(String resource, API_RequestBody body) {
         String uri = Config.getProperty("apiBaseURL") + resource;
 
         ObjectMapper mapper = new ObjectMapper();
@@ -71,7 +85,7 @@ public class API_Utils {
 
     }
 
-
+    /** DELETING*/
     public static void hitDELETE(String resource) {
         String uri = Config.getProperty("apiBaseURL") + resource;
 
@@ -90,6 +104,8 @@ public class API_Utils {
     }
 
 
+
+    /** UPDATING*/
     public static void hitPUT(String resource, API_RequestBody body) {
         //i bouil the uri
         String uri = Config.getProperty("apiBaseURL") + resource;
@@ -113,8 +129,7 @@ public class API_Utils {
         Response response = RestAssured.given().contentType(ContentType.JSON).body(bodyJSON).when().post(uri);
         //printing the response  body
         System.out.println(response.asString());
-        System.out.println("UPDATE STATUS CODE: "+response.statusCode());
-
+        System.out.println("UPDATE STATUS CODE: " + response.statusCode());
 
 
         // response will be back in JSON and converted in java and store in responseLISTBody

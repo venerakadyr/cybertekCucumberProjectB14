@@ -3,11 +3,11 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utilities.Driver_Utils;
+import utilities.Driver;
 
 public class Mileage_Page {
     public Mileage_Page(){
-        PageFactory.initElements(Driver_Utils.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(),this);
 
     }
 

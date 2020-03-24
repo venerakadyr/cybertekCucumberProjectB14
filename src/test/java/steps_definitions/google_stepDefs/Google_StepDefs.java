@@ -4,7 +4,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import pages.google_pages.GoogleLandingPage;
-import utilities.Driver_Utils;
+import utilities.Driver;
 
 public class Google_StepDefs {
 
@@ -13,7 +13,7 @@ public class Google_StepDefs {
     @When("User is on google homepage")
     public void user_is_on_google_homepage() {
       //1- Get the google page
-        Driver_Utils.getDriver().get("https://www.google.com");
+        Driver.getDriver().get("https://www.google.com");
 
     }
 
@@ -21,7 +21,7 @@ public class Google_StepDefs {
     public void user_should_see_title_contains_Google() {
         //2-compare the actual title vs expected title
 
-        String actualTitle= Driver_Utils.getDriver().getTitle();
+        String actualTitle= Driver.getDriver().getTitle();
         String expectedTitle="adadadad";
 
         Assert.assertTrue("Title verification is PASSED",actualTitle.contains(expectedTitle));
@@ -42,7 +42,7 @@ public class Google_StepDefs {
 
     @Then("User should see wooden spoon in the title")
     public void user_should_see_wooden_spoon_in_the_title() {
-        String actualTitle= Driver_Utils.getDriver().getTitle();
+        String actualTitle= Driver.getDriver().getTitle();
         String expectedTitle="wooden spoon";
         Assert.assertTrue("Wooden Spoon verification is Passed",actualTitle.contains(expectedTitle));
 

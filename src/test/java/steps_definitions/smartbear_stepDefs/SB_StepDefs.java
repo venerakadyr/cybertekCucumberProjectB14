@@ -4,7 +4,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import pages.smartbear_pages.SBLoginPage;
-import utilities.Driver_Utils;
+import utilities.Driver;
 
 public class SB_StepDefs {
 SBLoginPage smartBearLoginPage=new SBLoginPage();
@@ -12,7 +12,7 @@ SBLoginPage smartBearLoginPage=new SBLoginPage();
 
     @When("User is on SmartBear login page")
     public void user_is_on_SmartBear_login_page() {
-        Driver_Utils.getDriver().get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
+        Driver.getDriver().get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
     }
     @When("User enters correct username")
     public void user_enters_correct_username() {
@@ -34,7 +34,7 @@ SBLoginPage smartBearLoginPage=new SBLoginPage();
     @Then("User should be logged in and be able to verify Welcome text is displayed")
     public void user_should_be_logged_in_and_be_able_to_verify_Welcome_text_is_displayed() {
         // instead of asserting welcome webelement we just assert the title
-        String actualTitle= Driver_Utils.getDriver().getTitle();
+        String actualTitle= Driver.getDriver().getTitle();
         String expectedTitle = "Web Orders";
         Assert.assertTrue(actualTitle.equals(expectedTitle));
     }

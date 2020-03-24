@@ -6,7 +6,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import pages.wiki_pages.Wiki_SteveJobs_Pages;
-import utilities.Driver_Utils;
+import utilities.Driver;
 
 public class Wiki_StepDefs {
 
@@ -15,7 +15,7 @@ public class Wiki_StepDefs {
 
     @Given("User is onWikipedia home page")
     public void user_is_onWikipedia_home_page() {
-        Driver_Utils.getDriver().get("https://www.wikipedia.org");
+        Driver.getDriver().get("https://www.wikipedia.org");
     }
 
     @When("User types {string} in the wiki search box")
@@ -31,7 +31,7 @@ public class Wiki_StepDefs {
 
     @Then("User sees {string} is in the wiki title Note:")
     public void user_sees_is_in_the_wiki_title_Note(String searchValue) {
-        String actualTitle = Driver_Utils.getDriver().getTitle();
+        String actualTitle = Driver.getDriver().getTitle();
         Assert.assertTrue(actualTitle.contains(searchValue));
     }
 

@@ -14,4 +14,6 @@ public class API_ResponseBody {
     List<Student> students;
     List<Teacher> teachers;
 
+    String message;
+
 }

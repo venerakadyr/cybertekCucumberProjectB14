@@ -14,12 +14,12 @@ public class DB_Utils {
 
 // create the connection with Oracle SQL
     public static void createConnection() throws SQLException {
-        switch (Config_Utils.getProperty("dbType")) {
+        switch (Config.getProperty("dbType")) {
             case "oracle":
 
-                connection = DriverManager.getConnection(Config_Utils.getProperty("oracleURL"),
-                        Config_Utils.getProperty("oracleUserName"),
-                        Config_Utils.getProperty("oraclePassword"));
+                connection = DriverManager.getConnection(Config.getProperty("oracleURL"),
+                        Config.getProperty("oracleUserName"),
+                        Config.getProperty("oraclePassword"));
 
             case "mysql":
                 //create connection with mysql

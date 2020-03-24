@@ -17,7 +17,7 @@ public class POI_Utils {
     FileOutputStream fileOutputStream;
     Mileage_Page mileage_page = new Mileage_Page();
     public void gasMileageCalculatorTest() throws Exception {
-        Driver_Utils.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
+        Driver.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
         String path = "./src/test/resources/mileage_test_data/Book 1.xlsx";
 
         fileInputStream = new FileInputStream(path);
@@ -115,7 +115,7 @@ public class POI_Utils {
         fileInputStream.close();
         fileOutputStream.close();
         workbook.close();
-        Driver_Utils.getDriver().quit();
+        Driver.getDriver().quit();
 
 
     }

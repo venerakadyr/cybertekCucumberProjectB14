@@ -5,7 +5,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import utilities.Driver_Utils;
+import utilities.Driver;
 import utilities.ExtentReport_Utils;
 import utilities.Log_Utils;
 import utilities.TempStorage;
@@ -27,7 +27,7 @@ public class Hooks {
     @After
     public void tearDown(Scenario scenario){
       if(scenario.isFailed()){
-          byte [] screenshot=((TakesScreenshot) Driver_Utils.getDriver()).getScreenshotAs(OutputType.BYTES);
+          byte [] screenshot=((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
           scenario.embed(screenshot,"image/png");
           ExtentReport_Utils.fail();
 
@@ -35,8 +35,8 @@ public class Hooks {
           ExtentReport_Utils.pass();
 
       }
-
- Driver_Utils.closeDriver();
+//
+// Driver.closeDriver();
 
     }
 }

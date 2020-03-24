@@ -12,7 +12,7 @@ import utilities.ExtentReport_Utils;
         features = "src/test/resources/features",
         glue= "steps_definitions",
         dryRun =false,
-        tags="@smartOrder"
+        tags="@e2eName"
 
 )
 

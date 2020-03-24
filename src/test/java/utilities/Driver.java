@@ -15,14 +15,14 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Driver_Utils {
+public class Driver {
     public static final String USERNAME = "venerakadyr";
     public static final String ACCESS_KEY = "076ea0c2-673e-4333-9941-edbbb1ff8aa1";
     public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
     private  static WebDriver driver;
 
-    private Driver_Utils(){
+    private Driver(){
     }
 //
 //   public static WebDriver getDriver() {
@@ -50,7 +50,7 @@ public class Driver_Utils {
 //   //===============================================================================================
    public static WebDriver getDriver() {
        if (driver == null) {
-           switch (Config_Utils.getProperty("browser")) {
+           switch (Config.getProperty("browser")) {
                case "chrome":
                    WebDriverManager.chromedriver().setup();
                    driver = new ChromeDriver();
@@ -101,14 +101,18 @@ public class Driver_Utils {
            driver=null;
         }
    }
+
+
+
+
     public static void basicAuth(String originalUrl,String admin,String password,String element ) {
-        Driver_Utils.getDriver().get(originalUrl);
-        String url= Driver_Utils.getDriver().getCurrentUrl();
-        WebElement target = Driver_Utils.getDriver().findElement(By.linkText(element));
+        Driver.getDriver().get(originalUrl);
+        String url= Driver.getDriver().getCurrentUrl();
+        WebElement target = Driver.getDriver().findElement(By.linkText(element));
         target.click();
 
-        Driver_Utils.getDriver().get(url.substring(0,7)+admin+":"+password+"@"+url.substring(7));
-        String title = Driver_Utils.getDriver().getTitle();
+        Driver.getDriver().get(url.substring(0,7)+admin+":"+password+"@"+url.substring(7));
+        String title = Driver.getDriver().getTitle();
 
 
     }
