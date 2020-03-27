@@ -6,11 +6,11 @@ import lombok.Data;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
-@JsonIgnoreProperties(ignoreUnknown=true)
+@JsonIgnoreProperties(ignoreUnknown = true)
 
 public class Student {
-    String studentId;
-    String firstName;
+    private String studentId;
+    private String firstName;
     String lastName;
     int batch;
     String joinDate;
@@ -18,10 +18,6 @@ public class Student {
     String gender;
     Contact contact;
     Company company;
-
-
-
-
 
 
 }

@@ -9,6 +9,11 @@ Feature: Teacher Details End to End  for UI vs API
     And  user cross validations details on API vs Ui
 
 
+
     Examples:
       | resources    | teacherId |
       | /teacher/2794 | 2794      |
+
+
+
+

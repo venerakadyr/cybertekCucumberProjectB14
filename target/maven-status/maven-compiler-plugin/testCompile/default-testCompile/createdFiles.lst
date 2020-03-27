@@ -2,7 +2,6 @@ utilities/TempStorage.class
 test/ExcelRead.class
 pages/smartbear_pages/SBLoginPage.class
 api_Test_VA/Different_Way_Declare_Query_Param.class
-pages/cybertekTraining/CBTHOmepage.class
 api_Test_VA/PoJo_Test.class
 steps_definitions/google_stepDefs/Google_StepDefs.class
 api_Test_VA/Mapper.class
