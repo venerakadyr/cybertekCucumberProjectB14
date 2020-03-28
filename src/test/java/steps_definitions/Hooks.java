@@ -6,8 +6,8 @@ import cucumber.api.java.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
-import utilities.ExtentReport_Utils;
-import utilities.Log_Utils;
+import utilities.ExtentReport;
+import utilities.Logs;
 import utilities.TempStorage;
 
 public class Hooks {
@@ -16,8 +16,8 @@ public class Hooks {
         //Anything before each scenario
 //       Driver.getDriver().get("https://www.google.com");
         TempStorage.clear();
-        Log_Utils.start(scenario.getName());
-        ExtentReport_Utils.startTest(scenario.getName());
+        Logs.start(scenario.getName());
+        ExtentReport.startTest(scenario.getName());
     }
 
 
@@ -29,10 +29,10 @@ public class Hooks {
       if(scenario.isFailed()){
           byte [] screenshot=((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
           scenario.embed(screenshot,"image/png");
-          ExtentReport_Utils.fail();
+          ExtentReport.fail();
 
       }else {
-          ExtentReport_Utils.pass();
+          ExtentReport.pass();
 
       }
 //

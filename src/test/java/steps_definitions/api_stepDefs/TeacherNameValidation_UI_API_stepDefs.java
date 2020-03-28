@@ -1,11 +1,11 @@
 package steps_definitions.api_stepDefs;
 
-import apiModels.Teacher;
+import api.apiModels.Teacher;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import pages.cybertekTraining_pages.CBTHOmepage;
-import utilities.API_Utils;
+import utilities.API;
 import utilities.Time;
 
 import java.util.List;
@@ -28,7 +28,7 @@ public class TeacherNameValidation_UI_API_stepDefs {
 
     @Then("user cross validations details on API vs UI with {string}")
     public void user_cross_validations_details_on_API_vs_UI_with(String teacherName) {
-        int APIrestult = API_Utils.getResponseLISTBody().getTeachers().size();
+        int APIrestult = API.getResponseLISTBody().getTeachers().size();
         int UIresult = cbthOmepage.searchResultsName.size();
         System.out.println(APIrestult);
         System.out.println(UIresult);
@@ -41,7 +41,7 @@ public class TeacherNameValidation_UI_API_stepDefs {
             Assert.assertTrue("Teacher name failed on UI", teacher.getText().equals(teacherName));
         }
 
-        List<Teacher> teachersAPI = API_Utils.getResponseLISTBody().getTeachers();
+        List<Teacher> teachersAPI = API.getResponseLISTBody().getTeachers();
         for (Teacher teacher : teachersAPI) {
             Assert.assertTrue("Teacher name failed on API", teacher.getFirstName().equals(teacherName));
         }

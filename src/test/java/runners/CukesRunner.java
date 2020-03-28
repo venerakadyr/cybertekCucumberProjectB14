@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
-import utilities.ExtentReport_Utils;
+import utilities.ExtentReport;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -19,7 +19,7 @@ import utilities.ExtentReport_Utils;
 public class CukesRunner {
     @AfterClass
     public static void tearDown(){
-        ExtentReport_Utils.endReport();
+        ExtentReport.endReport();
     }
 
 
