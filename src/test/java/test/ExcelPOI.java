@@ -23,7 +23,7 @@ public class ExcelPOI {
     @Test
     public void gasMileageCalculatorTest() throws Exception {
         Driver.getDriver().get("https://www.calculator.net/gas-mileage-calculator.html#");
-        String path = "./src/test/resources/mileage_test_data/Book 1.xlsx";
+        String path = "./src/test/resources/test_data/Book 1.xlsx";
 
         fileInputStream = new FileInputStream(path);
         workbook = new XSSFWorkbook(fileInputStream);

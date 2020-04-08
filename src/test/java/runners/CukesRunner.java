@@ -8,17 +8,20 @@ import utilities.ExtentReport;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin={"html:target/cucumber-reports", "json:target/cucumber-report.json"},
+        plugin={"html:target/default-cucumber-reports",
+                "json:target/default-cucumber1.json",
+                "rerun:target/rerun.txt"
+        },
         features = "src/test/resources/features",
-        glue= "steps_definitions",
+        glue= "step_definitions",
         dryRun =false,
-        tags="@e2eUIvsAPI"
+        tags="@etsy2"
 
 )
 
 public class CukesRunner {
     @AfterClass
-    public static void tearDown(){
+    public static void tearDownee(){
         ExtentReport.endReport();
     }
 

@@ -7,7 +7,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import utilities.Time;
+import utilities.Synchronization;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -58,7 +58,7 @@ public class Test {
         System.out.println("Venera, you can do it!!!");
         androidDriver.findElement(By.xpath("//*[@text='SKIP']")).click();
 
-        Time.pause(2);
+        Synchronization.pause(2);
         androidDriver.findElement(By.xpath("//*[@content-decs='Menu']")).click();
 
 

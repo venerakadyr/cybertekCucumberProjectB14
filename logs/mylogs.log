@@ -1,55 +1,274 @@
-[INFO ] 2020-03-20 17:02:01.413 [main] TestLogs - Scenario start point: Etsy search title verification
-[INFO ] 2020-03-20 17:17:42.570 [main] TestLogs - Scenario start point: Etsy search title verification
-[INFO ] 2020-03-20 17:18:26.349 [main] TestLogs - Scenario start point: Etsy search title verification
-[INFO ] 2020-03-20 17:18:30.932 [main] TestLogs - Scenario start point: Etsy search title verification
-[INFO ] 2020-03-20 17:19:46.342 [main] TestLogs - Scenario start point: Etsy search title verification
-[INFO ] 2020-03-21 12:24:21.333 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 12:24:30.489 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 12:24:37.451 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 12:24:44.140 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 12:24:50.887 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 12:24:57.526 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 12:25:04.199 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 12:25:10.970 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:22.507 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:31.038 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:31.058 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:31.079 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:31.127 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:31.145 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:31.161 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:01:31.177 [main] TestLogs - Scenario start point: User should be able to place order with different data sets
-[INFO ] 2020-03-21 17:22:45.041 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:26:01.675 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:30:41.591 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:35:28.343 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:38:14.794 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:45:43.257 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:46:19.016 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:47:44.253 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-21 17:49:33.611 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-22 12:13:52.711 [main] TestLogs - Scenario start point: Positive teacher  creation validation
-[INFO ] 2020-03-22 12:15:07.266 [main] TestLogs - Scenario start point: Positive teacher  creation validation
-[INFO ] 2020-03-22 12:17:06.921 [main] TestLogs - Scenario start point: Positive teacher  creation validation
-[INFO ] 2020-03-22 12:34:27.583 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 12:36:56.146 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 12:56:05.323 [main] TestLogs - Scenario start point: Positive teacher deleting
-[INFO ] 2020-03-22 12:57:06.342 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 13:03:27.779 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 13:08:24.722 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 13:09:40.568 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 13:12:24.531 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 14:39:47.351 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 16:18:43.336 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 16:19:24.217 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-22 16:27:21.960 [main] TestLogs - Scenario start point: UI vs API cross data validation with name
-[INFO ] 2020-03-22 16:53:33.067 [main] TestLogs - Scenario start point: UI vs API cross data validation with name
-[INFO ] 2020-03-22 17:09:58.828 [main] TestLogs - Scenario start point: UI vs API cross data validation with name
-[INFO ] 2020-03-22 17:11:36.624 [main] TestLogs - Scenario start point: UI vs API cross data validation with name
-[INFO ] 2020-03-22 17:15:59.932 [main] TestLogs - Scenario start point: UI vs API cross data validation with name
-[INFO ] 2020-03-22 17:27:42.354 [main] TestLogs - Scenario start point: UI vs API cross data validation with name
-[INFO ] 2020-03-22 17:28:41.706 [main] TestLogs - Scenario start point: UI vs API cross data validation with name
-[INFO ] 2020-03-26 20:44:00.389 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-26 23:04:45.888 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-26 23:11:51.259 [main] TestLogs - Scenario start point: UI vs API cross data validation
-[INFO ] 2020-03-28 13:33:37.082 [main] TestLogs - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-03-28 20:52:00.369 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-03-29 10:29:43.403 [pool-1-thread-1] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-03-29 10:30:58.482 [pool-1-thread-1] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-03-29 10:31:59.570 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:32:03.830 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:32:06.691 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:32:09.736 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:34:03.720 [pool-1-thread-1] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 10:34:03.723 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:34:08.255 [pool-1-thread-1] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 10:34:08.651 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:34:11.854 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:34:16.268 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:36:34.033 [pool-1-thread-1] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 10:36:34.134 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:36:38.069 [pool-1-thread-1] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 10:36:38.502 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:36:41.791 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:36:45.124 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:43:17.365 [pool-1-thread-1] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 10:43:17.370 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:43:21.549 [pool-1-thread-1] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 10:43:22.302 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:43:25.508 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:43:28.978 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:44:06.309 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:44:06.309 [pool-1-thread-1] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 10:44:10.004 [pool-1-thread-1] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 10:44:11.380 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:44:14.475 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:44:17.707 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:46:37.096 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:46:37.096 [pool-1-thread-1] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 10:46:42.284 [pool-1-thread-1] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 10:46:43.708 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:46:47.952 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:46:51.210 [pool-1-thread-1] Log - Scenario start point: Steve Jobs search verification
+[INFO ] 2020-03-29 10:50:01.281 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-03-29 11:02:45.284 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:02:53.752 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:03:00.301 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:03:06.986 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:03:13.631 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:03:20.594 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:03:27.429 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:03:34.312 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:31.872 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:39.659 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:46.259 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:52.949 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:52.967 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:52.987 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:53.008 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:04:53.028 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:06:57.974 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:07:07.659 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:07:14.717 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:07:21.439 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:07:28.305 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:07:35.304 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:07:42.115 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:07:49.437 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:12:02.828 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:12:12.030 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:12:20.376 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:12:29.095 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:12:37.652 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:12:45.296 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:12:54.287 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:13:02.720 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:16:28.515 [main] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 11:16:33.933 [main] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 11:17:36.856 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:17:44.235 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:17:44.274 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:17:44.318 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:17:44.353 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:17:44.384 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:17:44.403 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:17:44.424 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:19:46.694 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:19:46.722 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:19:55.342 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:19:55.345 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:02.606 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:02.637 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:12.643 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:12.677 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:34.973 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:39.360 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:44.110 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:52.435 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:20:55.348 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:21:03.665 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:21:06.990 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:21:20.041 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 11:23:38.339 [main] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 11:23:41.865 [main] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 11:25:22.586 [main] Log - Scenario start point: Google verification
+[INFO ] 2020-03-29 11:25:26.590 [main] Log - Scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-29 13:28:26.802 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:28:35.890 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:28:43.804 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:28:50.444 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:28:57.158 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:29:03.781 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:29:10.482 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:29:17.143 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:34.822 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:35.382 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:35.409 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:35.433 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:35.461 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:35.485 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:35.507 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:30:35.532 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.310 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.807 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.833 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.858 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.883 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.908 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.933 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:32:09.956 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:57.995 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:58.817 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:58.911 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:58.993 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:59.059 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:59.130 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:59.190 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:35:59.249 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:06.327 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:06.971 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:07.036 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:07.087 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:07.143 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:07.190 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:07.238 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:38:07.287 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:26.009 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:26.619 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:26.706 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:26.786 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:26.853 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:26.917 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:26.978 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-03-29 13:40:27.042 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:43.866 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:44.526 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:44.561 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:44.580 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:44.603 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:44.621 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:44.637 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:54:44.651 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:56:42.668 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:56:54.475 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:57:00.860 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:57:00.895 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:57:00.923 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:57:00.941 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:57:00.960 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:57:00.979 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:58:32.334 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:58:39.914 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:58:46.290 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:58:52.965 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:58:59.325 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:59:05.949 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:59:12.339 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-04 10:59:18.969 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:27:42.762 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:27:55.635 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:28:02.503 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:28:15.496 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:28:38.717 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:29:01.657 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:29:14.357 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:29:31.503 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:36:54.923 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:00.814 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:08.002 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:14.505 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:16.893 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:21.684 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:24.072 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:28.694 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:33.890 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:41.809 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:44.848 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:50.271 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:52.465 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:37:57.400 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:38:01.699 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:38:08.648 [main] Log - Scenario start point: User should be able to place order with different data sets
+[INFO ] 2020-04-07 19:43:03.812 [main] Log - Scenario start point: As a user I should be able to login using authenticated test data
+[INFO ] 2020-04-07 19:45:09.264 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:45:52.235 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:48:50.398 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:49:00.815 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:49:49.386 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:49:57.491 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:55:28.814 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:55:40.422 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:58:08.335 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:58:16.491 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 19:58:25.571 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:05:11.149 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:05:20.018 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:05:27.775 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:05:35.707 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:07:56.144 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:08:03.960 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:08:09.344 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:10:38.045 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:10:38.057 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:12:25.569 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:12:35.582 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:12:40.695 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:13:39.976 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:13:47.821 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:13:55.321 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:14:01.294 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:37:04.355 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:37:14.901 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:37:21.159 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:39:22.738 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:39:38.475 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 20:39:45.953 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:08:29.685 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:08:47.625 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:08:56.667 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:10:32.384 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:10:50.452 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:11:01.984 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:13:58.589 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:14:07.027 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:14:14.666 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:18:54.735 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:19:02.597 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:19:08.130 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:22:11.855 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:22:21.965 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:22:29.278 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:22:35.199 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:30:42.391 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:30:53.153 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:30:57.958 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:32:24.355 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:32:33.670 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:32:40.728 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:38:34.690 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:38:42.853 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:38:48.157 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:42:25.954 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:42:35.333 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:42:40.191 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:45:11.008 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:45:19.986 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:53:05.498 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:53:14.374 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:55:55.727 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:56:04.486 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:58:00.847 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:58:08.804 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:58:58.272 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 21:59:04.700 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 22:00:59.656 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 22:01:10.204 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 22:04:58.470 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 22:05:05.194 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 22:07:05.795 [main] Log - Scenario start point: Etsy search title verification
+[INFO ] 2020-04-07 22:07:10.055 [main] Log - Scenario start point: Etsy search title verification

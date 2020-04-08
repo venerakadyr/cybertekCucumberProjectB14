@@ -11,7 +11,7 @@ Feature: Etsy search functionality
 #  Scenario: Etsy search title verification
 #    When user search for "wooden spoon"
 #    Then User should see "Wooden spoon" in Etsy title
-  @etsy
+  @etsy2
   Scenario Outline: Etsy search title verification
     When User searches for "<searchValue>"
     Then User should see "<expectedTitle>" in Etsy title
@@ -20,9 +20,7 @@ Feature: Etsy search functionality
       |searchValue        |expectedTitle       |
       |custom wooden spoon| Custom wooden spoon|
       |wooden spoon       | Wooden spoon       |
-
-
-@etsy2
+  @etsy
   Scenario: Etsy search title verification
     When user search for "balloon"
-    Then User should see "Balloon" in Etsy title
+    Then User should see "Balln" in Etsy title

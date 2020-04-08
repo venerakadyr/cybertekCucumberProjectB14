@@ -3,7 +3,7 @@ Feature: TC#25: Wikipedia Search Functionality Title Verification
 
   Background: User already in Home page
     Given User is onWikipedia home page
-  Scenario:Steve Jobs search verification
+    Scenario:Steve Jobs search verification
     When User types "Steve Jobs" in the wiki search box
     And User clicks wiki search button
     Then User sees "Steve Jobs" is in the wiki title Note:

@@ -1,10 +1,7 @@
 package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.MutableCapabilities;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,6 +11,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class Driver {
     public static final String USERNAME = "venerakadyr";
@@ -81,8 +79,21 @@ public class Driver {
                    }
                     break;
 
+               case"remotechrome":
+               DesiredCapabilities capabilities=new DesiredCapabilities().chrome();
+               capabilities.setPlatform(Platform.ANY);
+                   try {
+                       driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+                   } catch (MalformedURLException e) {
+                       e.printStackTrace();
+                   }
+                   break;
 
+               default:
+                   throw new RuntimeException("Illegal Browser Type");
            }
+
+//
 //           WebDriverManager.chromedriver().setup();
 //           driver = new ChromeDriver();
 //           driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

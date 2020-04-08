@@ -10,29 +10,84 @@
 
     <build>
         <plugins>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+
+<!--                <configuration>-->
+<!--                    <source>1.8</source>-->
+<!--                    <target>1.8</target>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.0</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
                 </configuration>
             </plugin>
+<!--=========================================================================================-->
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>4.4.0</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>Cucumber HTML Reports</projectName>
+                            <outputDirectory>${project.build.directory}</outputDirectory>
+                            <inputDirectory>${project.build.directory}</inputDirectory>
+                            <jsonFiles>
+                                <param>**/parallel-cucumber*.json</param>
+                            </jsonFiles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+<!--            Maven SureFire plugin for MVN TEST command=========================================-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                <version>3.0.0-M3</version>-->
+<!--                <configuration>-->
+<!--                    <includes>-->
+<!--                        <include>**/runners/CukesRunner*.java</include>-->
+
+<!--&lt;!&ndash;                     <include>**/CukesRunner*.java</include>    * will cover everything after Cukes Runner &ndash;&gt;-->
+<!--                    </includes>-->
+<!--                    <testFailureIgnore>false</testFailureIgnore>-->
+<!--&lt;!&ndash;                    <rerunFailingTestsCount>1</rerunFailingTestsCount>&ndash;&gt;-->
+<!--                    &lt;!&ndash;  <rerunFailingTestsCount>1</rerunFailingTestsCount> is to rerun the failed  and the number of times&ndash;&gt;-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M3</version>
+                <version>2.22.2</version>
                 <configuration>
+                    <!--                    <parallel>classes</parallel>-->
+                    <!--                    <forkMode>perthread</forkMode>-->
+                    <!--                    <threadCount>10</threadCount>-->
+                    <!--                    <reuseForks>false</reuseForks>-->
                     <includes>
-                        <include>**/CukesRunner.java</include>
+                        <include>**/runners/CukesRunner*.java</include>
                     </includes>
-                    <testFailureIgnore>false</testFailureIgnore>
-<!--                    <rerunFailingTestsCount>1</rerunFailingTestsCount>-->
-                    <!--  <rerunFailingTestsCount>1</rerunFailingTestsCount> is to rerun the failed  and the number of times-->
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -41,12 +96,14 @@
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!--   =====SELENIUM ========================================================================-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<!--  =====WEBDRIVER MANAGER ================================================================-->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -54,6 +111,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+<!--   =======JAVA FAKER =======================================================================-->
         <dependency>
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
@@ -61,6 +119,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<!--  =========CUCUMBER ========================================================================-->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
@@ -69,6 +128,7 @@
 
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<!--    =========JUNIT  ============================================================================= -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
@@ -78,6 +138,7 @@
 
 
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <!-- APACHE POI  ========================================================================-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -86,12 +147,14 @@
 
 
         <!-- https://mvnrepository.com/artifact/oracle/oracle-jdbc -->
+<!--        JDBC  DATABASE========================================================================-->
         <dependency>
             <groupId>oracle</groupId>
             <artifactId>ojdbc6</artifactId>
             <version>11.2.0.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<!--        log4J=================================================================================-->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
@@ -99,31 +162,36 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<!--   =======EXTENT REPORT ======================================================================-->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>4.0.9</version>
         </dependency>
 
+<!--  ========Jackson Api========================================================================-->
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.9.8</version>
         </dependency>
+
+<!--   ========RESTAssured =====================================================================-->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>4.2.0</version>
             <scope>test</scope>
         </dependency>
-
+<!--      ========LOMBOK==========================================================================-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
-
+<!-- ============AssertJ===============================================================================-->
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
@@ -132,10 +200,18 @@
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<!--        APPIUM===========================================================================-->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>7.3.0</version>
+        </dependency>
+
+<!--        SchemaTestingApi=============================================================================-->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.0.0</version>
         </dependency>
 
     </dependencies>

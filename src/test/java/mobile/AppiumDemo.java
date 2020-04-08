@@ -1,20 +1,16 @@
 package mobile;
 
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import utilities.Time;
-
-import static utilities.Time.*;
+import utilities.Synchronization;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
 public class AppiumDemo {
     public static AppiumDriverLocalService appiumDriverLocalService;
@@ -106,7 +102,7 @@ public class AppiumDemo {
       androidDriver.findElement(By.xpath("//*[@text='SIGN IN']")).click();
 
 
-        Time.pause(2);
+        Synchronization.pause(2);
 //        androidDriver.findElement(By.xpath("//*[@content-decs='Menu']")).click();
 
 

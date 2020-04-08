@@ -5,7 +5,7 @@ import api.apiModels.Teacher;
 
 import org.junit.Test;
 import org.assertj.core.api.SoftAssertions;
-import utilities.API;
+import utilities.APIUtils;
 
 
 public class API_Utility_Test {
@@ -13,10 +13,10 @@ public class API_Utility_Test {
     public void testingUtil() {
         String resource = "/teacher/all";
 
-       API.hitGET(resource);
+       APIUtils.hitGET(resource);
 //        System.out.println(APIUtil.getResponseLISTBody().getTeachers().get(0).getFirstName());
 
-        for (Teacher t : API.getResponseLISTBody().getTeachers()) {
+        for (Teacher t : APIUtils.getResponseLISTBody().getTeachers()) {
             if (t.getGender().equalsIgnoreCase("female") || t.getGender().equalsIgnoreCase("F")) {
                 System.out.println(t.getFirstName());
             }
@@ -29,7 +29,7 @@ public class API_Utility_Test {
         String resource = "/student/all";
 
         int counter = 0;
-        API.hitGET(resource);
+        APIUtils.hitGET(resource);
 //        for(Student student: APIUtil.getResponseLISTBody().getStudents()){
 //            if(student.getBatch()>6&&student.getBatch()<15){
 //                System.out.println(student.getFirstName()+"-"+ student.getBatch());
@@ -43,7 +43,7 @@ public class API_Utility_Test {
 //    }
         SoftAssertions softAssertions = new SoftAssertions();
         int index = 0;
-        for (Student student : API.getResponseLISTBody().getStudents()) {
+        for (Student student : APIUtils.getResponseLISTBody().getStudents()) {
 
             if (student.getBatch() > 6 && student.getBatch() < 15) {
                 index++;
@@ -78,7 +78,7 @@ public class API_Utility_Test {
         teacher.setPremanentAddress("Main Second street");
 
 
-       API.hitPOST("/teacher/create",teacher);
+       APIUtils.hitPOST("/teacher/create",teacher);
 
 
 
@@ -88,7 +88,7 @@ public class API_Utility_Test {
     @Test
     public void deleteTesting(){
 
-        API.hitDELETE("/teacher/delete/2741");
+        APIUtils.hitDELETE("/teacher/delete/2741");
     }
 
 
@@ -114,7 +114,7 @@ public class API_Utility_Test {
         requestBody.setDepartment("CS");
         requestBody.setTeacherId(2625);
 
-        API.hitPUT("/teacher/update", requestBody);
+        APIUtils.hitPUT("/teacher/update", requestBody);
     }
 
 

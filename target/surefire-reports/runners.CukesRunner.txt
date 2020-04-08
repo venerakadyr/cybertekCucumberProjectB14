@@ -1,16 +1,45 @@
 -------------------------------------------------------------------------------
 Test set: runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 37.752 s <<< FAILURE! - in runners.CukesRunner
-UI vs API cross data validation(Teacher Details End to End  for UI vs API)  Time elapsed: 37.142 s  <<< ERROR!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//h3)[2]"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 10.267 s <<< FAILURE! - in runners.CukesRunner
+Etsy search title verification(Etsy search functionality)  Time elapsed: 9.693 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=80.0.3987.163)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'VENERAs-MacBook-Pro.local', ip: 'fe80:0:0:0:1067:6807:b875:efac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '12.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/vp/bz0x1t056t5...}, goog:chromeOptions: {debuggerAddress: localhost:50282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a59708f440381d51ffe612a223625c6d
-*** Element info: {Using=xpath, value=(//h3)[2]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/vp/bz0x1t056t5...}, goog:chromeOptions: {debuggerAddress: localhost:56603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2d641d21473cf7b22834d2aaa5ecf512
+*** Element info: {Using=id, value=global-enhancements-search-query}
+
+Etsy search title verification(Etsy search functionality)  Time elapsed: 9.694 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VENERAs-MacBook-Pro.local', ip: 'fe80:0:0:0:1067:6807:b875:efac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/vp/bz0x1t056t5...}, goog:chromeOptions: {debuggerAddress: localhost:56603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2d641d21473cf7b22834d2aaa5ecf512
+
+Etsy search title verification(Etsy search functionality)  Time elapsed: 0.013 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VENERAs-MacBook-Pro.local', ip: 'fe80:0:0:0:1067:6807:b875:efac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/vp/bz0x1t056t5...}, goog:chromeOptions: {debuggerAddress: localhost:56603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2d641d21473cf7b22834d2aaa5ecf512
+
+Etsy search title verification(Etsy search functionality)  Time elapsed: 0.013 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VENERAs-MacBook-Pro.local', ip: 'fe80:0:0:0:1067:6807:b875:efac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/vp/bz0x1t056t5...}, goog:chromeOptions: {debuggerAddress: localhost:56603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2d641d21473cf7b22834d2aaa5ecf512
 
